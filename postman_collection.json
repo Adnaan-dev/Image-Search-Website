@@ -1,0 +1,122 @@
+{
+  "info": {
+    "name": "Image Search API",
+    "description": "API collection for MERN Image Search application",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/health",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "health"]
+        }
+      }
+    },
+    {
+      "name": "Get Top Searches",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/top-searches",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "top-searches"]
+        }
+      }
+    },
+    {
+      "name": "Get Current User",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Cookie",
+            "value": "connect.sid={{sessionCookie}}"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/auth/user",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "auth", "user"]
+        }
+      }
+    },
+    {
+      "name": "Search Images",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Cookie",
+            "value": "connect.sid={{sessionCookie}}"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"term\": \"nature\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/search",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "search"]
+        }
+      }
+    },
+    {
+      "name": "Get Search History",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Cookie",
+            "value": "connect.sid={{sessionCookie}}"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/history",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "history"]
+        }
+      }
+    },
+    {
+      "name": "Logout",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Cookie",
+            "value": "connect.sid={{sessionCookie}}"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/auth/logout",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "auth", "logout"]
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:5000",
+      "type": "string"
+    },
+    {
+      "key": "sessionCookie",
+      "value": "",
+      "type": "string"
+    }
+  ]
+}
+
