@@ -49,12 +49,21 @@ UDStudios/
 └── README.md
 ```
 ## Screenshots
-
-![Image](https://github.com/user-attachments/assets/2a81cd76-1f22-404c-9be0-09cbc2e11d87)
+#### OAuth (for logging in)
 ![Image](https://github.com/user-attachments/assets/8451dd26-bdc0-44d1-b2a8-1e57ed7d990f)
-![Image](https://github.com/user-attachments/assets/b0758fe1-4982-4464-99f6-a06918c99304)
-![Image](https://github.com/user-attachments/assets/a78a4de3-a995-499b-a4f7-b896b2ccc4b3)
+
+#### Main UI
 ![Image](https://github.com/user-attachments/assets/4eab7311-df36-4422-99a3-95966bb84121)
+
+#### Top Searches
+![Image](https://github.com/user-attachments/assets/a78a4de3-a995-499b-a4f7-b896b2ccc4b3)
+
+#### Search History
+![Image](https://github.com/user-attachments/assets/b0758fe1-4982-4464-99f6-a06918c99304)
+
+#### MongoDB Integrated
+![Image](https://github.com/user-attachments/assets/2a81cd76-1f22-404c-9be0-09cbc2e11d87)
+
 
 
 ## Setup Instructions
