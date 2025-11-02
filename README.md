@@ -498,7 +498,11 @@ npm start  # Runs on http://localhost:3000
 
 This project is open source and available under the MIT License.
 
-## Contact
 
-For questions or issues, please open an issue on the GitHub repository.
+## 📢 Connect with Me
+[![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/Adnaan-dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jan-adnan-farooq-b216b7321/)
+
+⭐ **Star this repository if you find it useful!** 🚀
+
 
