@@ -99,7 +99,9 @@ SESSION_SECRET=your-session-secret-key-here
 # Unsplash API
 UNSPLASH_ACCESS_KEY=your-unsplash-access-key
 
-# OAuth Google
+# OAuth Google - I have included Google OAuth as an example in this project
+
+#OAuth Google
 GOOGLE_CLIENT_ID=your-google-client-id
 GOOGLE_CLIENT_SECRET=your-google-client-secret
 
