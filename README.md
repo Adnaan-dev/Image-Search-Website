@@ -48,6 +48,23 @@ UDStudios/
 │   └── package.json
 └── README.md
 ```
+## Screenshots
+#### OAuth (for logging in)
+![Image](https://github.com/user-attachments/assets/8451dd26-bdc0-44d1-b2a8-1e57ed7d990f)
+
+#### Main UI
+![Image](https://github.com/user-attachments/assets/4eab7311-df36-4422-99a3-95966bb84121)
+
+#### Top Searches
+![Image](https://github.com/user-attachments/assets/a78a4de3-a995-499b-a4f7-b896b2ccc4b3)
+
+#### Search History
+![Image](https://github.com/user-attachments/assets/b0758fe1-4982-4464-99f6-a06918c99304)
+
+#### MongoDB Integrated
+![Image](https://github.com/user-attachments/assets/2a81cd76-1f22-404c-9be0-09cbc2e11d87)
+
+
 
 ## Setup Instructions
 
@@ -82,7 +99,9 @@ SESSION_SECRET=your-session-secret-key-here
 # Unsplash API
 UNSPLASH_ACCESS_KEY=your-unsplash-access-key
 
-# OAuth Google
+# OAuth Google - I have included Google OAuth as an example in this project
+
+#OAuth Google
 GOOGLE_CLIENT_ID=your-google-client-id
 GOOGLE_CLIENT_SECRET=your-google-client-secret
 
@@ -481,7 +500,11 @@ npm start  # Runs on http://localhost:3000
 
 This project is open source and available under the MIT License.
 
-## Contact
 
-For questions or issues, please open an issue on the GitHub repository.
+## 📢 Connect with Me
+[![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/Adnaan-dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jan-adnan-farooq-b216b7321/)
 
+⭐ **Star this repository if you find it useful!** 🚀
+
+**Built by Adnan with ❤️ using MERN + OAuth**
