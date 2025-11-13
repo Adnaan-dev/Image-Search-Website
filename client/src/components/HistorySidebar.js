@@ -46,3 +46,4 @@ const HistorySidebar = ({ history, loading, onHistoryClick }) => {
 
 export default HistorySidebar;
 
+

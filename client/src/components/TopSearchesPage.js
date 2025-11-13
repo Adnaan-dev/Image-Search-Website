@@ -76,3 +76,4 @@ const TopSearchesPage = ({ user, onLogout }) => {
 
 export default TopSearchesPage;
 
+

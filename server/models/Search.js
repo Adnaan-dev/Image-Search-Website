@@ -24,3 +24,4 @@ searchSchema.index({ term: 1 });
 
 module.exports = mongoose.model('Search', searchSchema);
 
+

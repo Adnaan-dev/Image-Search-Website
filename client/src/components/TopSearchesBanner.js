@@ -28,3 +28,4 @@ const TopSearchesBanner = ({ topSearches, onSearchClick }) => {
 
 export default TopSearchesBanner;
 
+

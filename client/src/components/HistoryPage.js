@@ -134,3 +134,4 @@ const HistoryPage = ({ user, onLogout }) => {
 
 export default HistoryPage;
 
+

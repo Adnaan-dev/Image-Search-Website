@@ -60,3 +60,4 @@ const SearchSection = ({ onSearch, searchResults, selectedImages, onImageToggle 
 
 export default SearchSection;
 
+
